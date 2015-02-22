@@ -1,0 +1,60 @@
+\documentclass[12pt]{article}
+\usepackage[frenchb]{babel}
+\usepackage{fontenc}
+\usepackage{fancyhdr} % Required for custom headers
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{extramarks} % Required for headers and footers
+\usepackage{graphicx} % Required to insert images
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage[normalem]{ulem}
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage{numprint}
+\usepackage{eurosym}
+\usepackage{appendix}
+
+\geometry{a4paper,
+		  body={160mm,250mm},
+		  left=25mm,
+		  top=25mm,
+		  headheight=10mm,
+		  headsep=4mm,
+		  marginparsep=4mm,
+		  marginparwidth=21mm}
+		  
+\pagestyle{fancy}
+\lhead{Lucie Herrier 3TL1}
+\rhead{\Right}
+\lfoot{\lastxmark}
+\cfoot{}
+\rfoot{\ \thepage\ / \pageref{LastPage}}
+\renewcommand\headrulewidth{0.4pt} % Size of the header rule
+\renewcommand\footrulewidth{0.4pt} % Size of the footer rule
+
+\newcommand{\ephec}{\includegraphics[width=2cm]{ephec.png}}
+\newcommand{\Right}{Aide à l'apprentissage à la lecture}
+
+\begin{document}
+\input{cover}
+\date{}
+\maketitle
+\thispagestyle{empty}
+\newpage
+\input{remerciements}
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1}
+\tableofcontents
+\newpage
+\input{intro}
+\include{docu}
+\include{exo}
+\include{outils}
+\include{dev}
+\include{difficultes}
+\include{ameliorations}
+\include{conclusion}
+\include{biblio}
+\include{annexe}
+\end{document}
