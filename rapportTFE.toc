@@ -1,9 +1,10 @@
 \select@language {french}
-\contentsline {section}{\numberline {1}Introduction}{2}
-\contentsline {section}{\numberline {2}Recherche documentaire}{3}
-\contentsline {section}{\numberline {3}\IeC {\'E}laboration des exercices}{4}
-\contentsline {section}{\numberline {4}Outils et technologies utilis\IeC {\'e}s}{5}
-\contentsline {section}{\numberline {5}D\IeC {\'e}roulement du d\IeC {\'e}veloppement}{6}
-\contentsline {section}{\numberline {6}Difficult\IeC {\'e}s rencontr\IeC {\'e}es}{7}
-\contentsline {section}{\numberline {7}Am\IeC {\'e}liorations possibles}{8}
-\contentsline {section}{\numberline {8}Conclusion}{9}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Recherche documentaire}{2}
+\contentsline {section}{\numberline {3}\IeC {\'E}laboration des exercices}{3}
+\contentsline {section}{\numberline {4}Outils et technologies utilis\IeC {\'e}s}{4}
+\contentsline {section}{\numberline {5}D\IeC {\'e}roulement du d\IeC {\'e}veloppement}{5}
+\contentsline {section}{\numberline {6}Difficult\IeC {\'e}s rencontr\IeC {\'e}es}{6}
+\contentsline {section}{\numberline {7}Am\IeC {\'e}liorations possibles}{7}
+\contentsline {section}{\numberline {8}Conclusion}{8}
+\contentsline {section}{\numberline {I}Test}{10}

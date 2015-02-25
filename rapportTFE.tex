@@ -16,8 +16,10 @@
 
 \geometry{a4paper,
 		  body={160mm,250mm},
-		  left=25mm,
+		  left=20mm,
 		  top=25mm,
+		  bottom=25mm,
+		  right=15mm,
 		  headheight=10mm,
 		  headsep=4mm,
 		  marginparsep=4mm,
@@ -28,7 +30,7 @@
 \rhead{\Right}
 \lfoot{\lastxmark}
 \cfoot{}
-\rfoot{\ \thepage\ / \pageref{LastPage}}
+\rfoot{\ \thepage}
 \renewcommand\headrulewidth{0.4pt} % Size of the header rule
 \renewcommand\footrulewidth{0.4pt} % Size of the footer rule
 
@@ -44,9 +46,12 @@
 \input{remerciements}
 \thispagestyle{empty}
 \newpage
+\pagenumbering{Roman}
 \setcounter{page}{1}
 \tableofcontents
 \newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
 \input{intro}
 \include{docu}
 \include{exo}
@@ -56,5 +61,5 @@
 \include{ameliorations}
 \include{conclusion}
 \include{biblio}
-\include{annexe}
+\include{annexes}
 \end{document}
