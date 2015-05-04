@@ -1,0 +1,50 @@
+\subsection{Le test sur les enfants}
+Durant le développement de Manabu, j'ai eu l'occasion d'aller tester l'application sur des enfants de première primaire. Cette occasion s'est présentée à moi grâce à Mme Van den Schrieck, qui m'a donné les coordonnées d'une dame, Mme Aliette Lochy, réalisant des tests concernant la lecture et la reconnaissance des visage sur des enfants de première primaire durant les vacances de Pâques. J'ai donc pris contact avec Mme Lochy pour lui demander s'il était possible de participer à une des séances organisées avec les enfants afin d'avoir un feedback sur mon application, et pouvoir éventuellement rediriger le tir. Je me suis donc rendue à la faculté de psychologie de Louvain-La-Neuve le jeudi 9 avril, après accord de Mme Lochy.\\
+
+Quatre enfants de première primaire (deux filles et deux garçons) étaient à ma disposition ce jour-là, afin que l'on parcoure ensemble les exercices déjà mis en place et qu'ils me donnent leur avis sur chacun d'entre eux. Le test a été réalisé sur la tablette Samsung Galaxy Tab 2 10.1, plus conviviale qu'un smartphone. Les exercices déjà développés dans l'application pour être suffisamment fonctionnels ce jour là étaient :
+\begin{itemize}
+\item Imagerie : niveau 1
+\item Lecture flash : niveau 1
+\item Anagrammes : niveau 1, mais incomplet.
+\end{itemize}
+Je ne compte pas détailler ici ce que m'a dit chaque enfant, les commentaires étant très similaires pour chacun d'entre eux. Je vais expliquer ma procédure de test, un exercice à la fois, et détailler par exercice les questions posées aux enfants ainsi que les réponses obtenues.
+
+\subsubsection{Test 1 : l'exercice \textit{Imagerie}}
+Pour cet exercice, j'ai tout d'abord expliqué aux enfants les règles du jeu. Il s'agissait, pour une série de 10 images, de lire le mot associé à chacune d'entre elle. Par image, ils appuyaient ensuite sur le bouton \textit{mémorisé}, et devaient enfin choisir parmi les 3 choix proposés lequel correspondait au mot lu précédemment, l'image étant toujours affichée.\\
+
+Pour rappel, lors de ce test, le seul niveau implémenté était le niveau 1 : un mot = une image.\\
+
+Les commentaires que j'ai obtenu de la part des enfants étaient similaires. Ils m'ont tous mentionné que le niveau de cet exercice était trop facile pour leur niveau d'apprentissage (quasi fin de première primaire). Lorsque je leur ai posé la question de ce qui pourrait être plus de leur niveau en demandant si une phrase complète plutôt qu'un mot serait plus difficile, ils m'ont répondu positivement. J'en ai déduit qu'il faut soit des exercices plus compliqués, soit une discrimination. Par discrimination, j'entends, montrer deux images associées chacune à un mot ou une phrase, et pour le choix, montrer une troisième image avec le mot correspondant à sélectionner plutôt que les deux montrés précédemment..
+
+\subsubsection{Test 2 : l'exercice \textit{Lecture flash}}
+Comme précédemment, j'ai commencé par expliquer aux enfants les règles du jeu.
+Ils devaient commencer par me dire environ combien de secondes ils avaient besoin pour lire un mot. Pour ce faire, je leur permettait de tester différents timings afin de choisir celui qui leur convenait le mieux. Une fois le timing choisi, je leur expliquais le principe. Pour une série de 10 mots, ils devaient lire le mot dans le temps imparti, et ensuite ré-écrire celui-ci à l'aide du clavier de la tablette, accent et caractères spéciaux compris.\\
+
+Le temps de lecture était variable selon les enfants. Les filles étaient plus rapides que les garçons pour lire un mot de taille moyenne (plus de 4 ou 5 lettres). J'avais donc, pour le niveau 1, une durée de lecture variant entre 10 et 20 secondes selon les enfants.\\
+
+Cet exercice de lecture flash était considéré comme plus difficile par les enfants. En effet, ils avaient besoin de plus de concentration, car il leur fallait retenir le mot pour pouvoir le ré-écrire. Un des garçons m'a cependant dit qu'il trouvait cet exercice facile. Pourtant, au vu de ses résultats, j'ai constaté qu'il préférait écrire le mot plutôt que de le lire, ce qui lui posait quelques problèmes.\\
+
+Enfin, la ré-écriture du mot posait problème. Non pas que les enfants n'avaient pas retenu le mot, mais le clavier par défaut en AZERTY les perturbait. Ils rencontraient des difficultés à situer les lettres sur le clavier, et confondaient certaines d'entre elles (\textit{b} et \textit{d}, \textit{q} et \textit{p}). De ce fait, ils m'ont tous mentionné qu'il préféreraient disposer d'un clavier de type \textit{alphabet}, avec les accents et caractères type \textit{-, ', ...} à disposition.
+
+\subsubsection{Test 3 : l'exercice \textit{Anagrammes}}
+Tel que mentionné auparavant, cet exercice n'était pas complet lors de son évaluation auprès des enfants. J'avais implémenté l'algorithme de création de l'anagramme, mais pas sa validation une fois les lettres remises dans l'ordre. Par ailleurs, l'affichage à ce moment présentait une zone où le mot était écrit, à côté des lettres mélangées.\\
+
+J'ai tout d'abord demandé aux enfants de remettre les lettres dans l'ordre, sur base du mot qu'ils lisaient juste à côté. Ceci était bien entendu trop facile pour eux. Ils n'avaient qu'à regarder les lettres du mot, et à copier.\\
+
+Ensuite, j'ai caché le mot affiché en entier pour ne laisser que les lettres mélangées, et j'ai demandé de remettre les lettres dans l'ordre pour former un mot. Les mots étaient constitués au maximum de 5 lettres. Sans aucune aide extérieure, il était quasi impossible pour les enfants de remettre les lettres en ordre. J'ai alors essayé le même type d'exercice, mais en prononçant le mot. Dès lors, les enfants réussissaient l'exercice, à l'exception de quelques mots.\\
+
+Les mots posant problème aux enfants étaient ceux qui comprennent plusieurs phonèmes similaires, mais ne s'écrivant pas de la même manière. Ainsi, pour le mot "aimer" par exemple, un des enfants cherchait deux fois la lettre \textit{e} pour écrire le son "é" entendu au début et à la fin du mot. J'ai du lui donner un indice en lui expliquant l'association des voyelles pour former un son afin qu'il trouve l'orthographe correcte.\\
+
+Ces essais concernant les anagrammes m'ont permis de clarifier la méthode à employer pour mettre en place l'exercice. J'en ai déduit qu'il était plus simple pour l'enfant d'associer le mot et l'ordre des lettres à partir du son du mot prononcé. J'ai donc choisi de mettre jouer le mot de manière sonore lors de la génération de l'anagramme et de laisser la possibilité à l'enfant de rejouer celui-ci afin de l'aider.
+
+\subsubsection{Points relevés}
+Parmi les questions posées et les avis obtenus de la part des enfants, voici les principaux points qui peuvent être relevés concernant les exercices :
+\begin{itemize}
+\item Fin de première primaire, les enfants ont le niveau suffisament pour savoir lire plus ou moins aisément un mot seul. A ce stade, il est plus intéressant de s'orienter vers les phrases ou la discrimination des mots. Néanmoins, les mots seuls restent essentiels pour le début de l'apprentissage.
+\item L'implémentation d'un clavier spécifique à l'application est nécessaire. Il doit être sous forme \textit{alphabet} et non \textit{azerty}, et contenir les accents et caractères fréquemment rencontrés tels que \textit{-}, \textit{'}, etc.
+\item Le fait que certains des enfants aient des problèmes dans la discrimination des lettres me conforte dans l'utilisation de la police spécifique \textit{OpenDyslexic}.
+\item Le son, dans le cas de l'exercice avec les anagrammes, est une composante nécessaire pour la réussite de celui-ci.\\
+\end{itemize}
+
+De plus, j'ai posé quelques questions aux enfants concernant l'application dans sa globalité. Je leur ai demandé si celle-ci leur plaisait ou non. Ils ont tous répondu par l'affirmative, une des filles précisant qu'elle trouvait plus chouette d'apprendre sur une tablette.\\
+Enfin, je leur ai demandé s'ils aimeraient avoir de la musique en plus, comme dans un jeu, ou s'il pensaient que ça les distrairait. Tous m'ont dit qu'il préféraient ne pas avoir de musique, car il leur est plus facile de se concentrer dans le silence.

@@ -1,19 +1,22 @@
 \select@language {french}
 \contentsline {section}{\numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {2}Recherche documentaire}{2}
-\contentsline {section}{\numberline {3}\IeC {\'E}laboration des exercices}{3}
-\contentsline {section}{\numberline {4}Outils et technologies utilis\IeC {\'e}s}{4}
-\contentsline {section}{\numberline {5}D\IeC {\'e}roulement du d\IeC {\'e}veloppement}{5}
-\contentsline {subsection}{\numberline {5.1}L'exercice \textit {Imagerie}}{5}
-\contentsline {subsection}{\numberline {5.2}L'exercice \textit {Lecture flash}}{5}
-\contentsline {subsection}{\numberline {5.3}L'exercice \textit {Anagrammes}}{5}
-\contentsline {subsection}{\numberline {5.4}L'exercice \textit {Ecouter le son}}{5}
-\contentsline {subsection}{\numberline {5.5}Le test sur les enfants}{5}
-\contentsline {subsubsection}{\numberline {5.5.1}Test 1 : l'exercice \textit {Imagerie}}{5}
-\contentsline {subsubsection}{\numberline {5.5.2}Test 2 : l'exercice \textit {Lecture flash}}{6}
-\contentsline {subsubsection}{\numberline {5.5.3}Test 3 : l'exercice \textit {Anagrammes}}{6}
-\contentsline {subsubsection}{\numberline {5.5.4}Points relev\IeC {\'e}s}{6}
-\contentsline {section}{\numberline {6}Difficult\IeC {\'e}s rencontr\IeC {\'e}es}{7}
-\contentsline {section}{\numberline {7}Am\IeC {\'e}liorations possibles}{8}
-\contentsline {section}{\numberline {8}Conclusion}{9}
-\contentsline {section}{\numberline {I}Test}{11}
+\contentsline {section}{\numberline {2}Pr\IeC {\'e}sentation de l'application}{2}
+\contentsline {section}{\numberline {3}Recherche documentaire}{3}
+\contentsline {subsection}{\numberline {3.1}Rencontre avec Odile Paveau}{3}
+\contentsline {subsection}{\numberline {3.2}Rencontre avec Laurence Henrion}{3}
+\contentsline {section}{\numberline {4}\IeC {\'E}laboration des exercices}{4}
+\contentsline {section}{\numberline {5}Outils et technologies utilis\IeC {\'e}s}{5}
+\contentsline {section}{\numberline {6}D\IeC {\'e}roulement du d\IeC {\'e}veloppement}{6}
+\contentsline {subsection}{\numberline {6.1}L'exercice \textit {Imagerie}}{6}
+\contentsline {subsection}{\numberline {6.2}L'exercice \textit {Lecture flash}}{6}
+\contentsline {subsection}{\numberline {6.3}L'exercice \textit {Anagrammes}}{6}
+\contentsline {subsection}{\numberline {6.4}L'exercice \textit {Ecouter le son}}{6}
+\contentsline {subsection}{\numberline {6.5}Le test sur les enfants}{6}
+\contentsline {subsubsection}{\numberline {6.5.1}Test 1 : l'exercice \textit {Imagerie}}{6}
+\contentsline {subsubsection}{\numberline {6.5.2}Test 2 : l'exercice \textit {Lecture flash}}{7}
+\contentsline {subsubsection}{\numberline {6.5.3}Test 3 : l'exercice \textit {Anagrammes}}{7}
+\contentsline {subsubsection}{\numberline {6.5.4}Points relev\IeC {\'e}s}{8}
+\contentsline {section}{\numberline {7}Difficult\IeC {\'e}s rencontr\IeC {\'e}es}{9}
+\contentsline {section}{\numberline {8}Am\IeC {\'e}liorations possibles}{10}
+\contentsline {section}{\numberline {9}Conclusion}{11}
+\contentsline {section}{\numberline {I}Test}{13}
