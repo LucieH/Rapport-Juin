@@ -1,22 +1,23 @@
 \select@language {french}
 \contentsline {section}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {2}Recherches documentaires}{2}
-\contentsline {subsection}{\numberline {2.1}Rencontre avec Odile Paveau}{2}
-\contentsline {subsection}{\numberline {2.2}Rencontre avec Laurence Henrion}{2}
-\contentsline {section}{\numberline {3}Pr\IeC {\'e}sentation de l'application et des exercices}{3}
-\contentsline {section}{\numberline {4}Outils et technologies utilis\IeC {\'e}s}{5}
-\contentsline {section}{\numberline {5}D\IeC {\'e}roulement du d\IeC {\'e}veloppement}{6}
-\contentsline {subsection}{\numberline {5.1}L'exercice \textit {Imagerie}}{6}
-\contentsline {subsection}{\numberline {5.2}L'exercice \textit {Lecture flash}}{6}
-\contentsline {subsection}{\numberline {5.3}L'exercice \textit {Anagrammes}}{6}
-\contentsline {subsection}{\numberline {5.4}L'exercice \textit {Ecouter le son}}{6}
-\contentsline {subsection}{\numberline {5.5}Le test sur les enfants}{6}
-\contentsline {subsubsection}{\numberline {5.5.1}Test 1 : l'exercice \textit {Imagerie}}{6}
-\contentsline {subsubsection}{\numberline {5.5.2}Test 2 : l'exercice \textit {Lecture flash}}{7}
-\contentsline {subsubsection}{\numberline {5.5.3}Test 3 : l'exercice \textit {Anagrammes}}{7}
-\contentsline {subsubsection}{\numberline {5.5.4}Points relev\IeC {\'e}s}{8}
-\contentsline {section}{\numberline {6}Difficult\IeC {\'e}s rencontr\IeC {\'e}es}{9}
-\contentsline {section}{\numberline {7}Am\IeC {\'e}liorations possibles}{10}
-\contentsline {section}{\numberline {8}Conclusion}{11}
-\contentsline {subsection}{\numberline {8.1}Ouvrages}{12}
-\contentsline {section}{\numberline {I}Test}{13}
+\contentsline {subsection}{\numberline {2.1}Etude comparative du march\IeC {\'e}}{2}
+\contentsline {subsection}{\numberline {2.2}Rencontre avec Odile Paveau}{2}
+\contentsline {subsection}{\numberline {2.3}Rencontre avec Laurence Henrion}{2}
+\contentsline {section}{\numberline {3}Pr\IeC {\'e}sentation de l'application et des exercices}{4}
+\contentsline {section}{\numberline {4}Outils et technologies utilis\IeC {\'e}s}{6}
+\contentsline {section}{\numberline {5}D\IeC {\'e}roulement du d\IeC {\'e}veloppement}{7}
+\contentsline {subsection}{\numberline {5.1}L'exercice \textit {Imagerie}}{7}
+\contentsline {subsection}{\numberline {5.2}L'exercice \textit {Lecture flash}}{7}
+\contentsline {subsection}{\numberline {5.3}L'exercice \textit {Anagrammes}}{7}
+\contentsline {subsection}{\numberline {5.4}L'exercice \textit {Ecouter le son}}{7}
+\contentsline {subsection}{\numberline {5.5}Le test sur les enfants}{7}
+\contentsline {subsubsection}{\numberline {5.5.1}Test 1 : l'exercice \textit {Imagerie}}{7}
+\contentsline {subsubsection}{\numberline {5.5.2}Test 2 : l'exercice \textit {Lecture flash}}{8}
+\contentsline {subsubsection}{\numberline {5.5.3}Test 3 : l'exercice \textit {Anagrammes}}{8}
+\contentsline {subsubsection}{\numberline {5.5.4}Points relev\IeC {\'e}s}{9}
+\contentsline {section}{\numberline {6}Difficult\IeC {\'e}s rencontr\IeC {\'e}es}{10}
+\contentsline {section}{\numberline {7}Am\IeC {\'e}liorations possibles}{11}
+\contentsline {section}{\numberline {8}Conclusion}{12}
+\contentsline {subsection}{\numberline {8.1}Ouvrages}{13}
+\contentsline {section}{\numberline {I}Test}{14}
