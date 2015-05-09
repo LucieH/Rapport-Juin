@@ -3,7 +3,7 @@
 \contentsline {section}{\numberline {2}Recherches documentaires}{2}
 \contentsline {subsection}{\numberline {2.1}Etude comparative du march\IeC {\'e}}{2}
 \contentsline {subsection}{\numberline {2.2}Rencontre avec Odile Paveau}{2}
-\contentsline {subsection}{\numberline {2.3}Rencontre avec Laurence Henrion}{2}
+\contentsline {subsection}{\numberline {2.3}Rencontre avec Laurence Henrion}{3}
 \contentsline {section}{\numberline {3}Pr\IeC {\'e}sentation de l'application et des exercices}{4}
 \contentsline {section}{\numberline {4}Outils et technologies utilis\IeC {\'e}s}{6}
 \contentsline {section}{\numberline {5}D\IeC {\'e}roulement du d\IeC {\'e}veloppement}{7}
