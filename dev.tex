@@ -1,8 +1,42 @@
 \section{Déroulement du développement}
-- Mise en place du squelette de l'appli. Départ sur Eclipse, migration vers Android Studio pour cause d'incompétence et de bugs répétitifs sur Eclipse Juno.
+Cette partie du rapport est dédiée au déroulement du développement de l'application \textit{Manabu}. Je l'explique point par point, en fonction des différentes parties de l'application, de manière chronologique\footnote{Il se peut qu'il y ait certains sauts dans le temps, des ellipses, dues à un changement d'exercice en cours de développement de ma part}. Ce point est également dédié au test de \textit{Manabu} que j'ai effectué sur des enfants en fin de première primaire dans le courant du mois d'avril. En effet, ce test au milieu de la création de l'application m'a permis de confirmer certaines décisions que je n'étais pas sûre de prendre (telle la présence d'une musique de fond ou non, cf. plus bas, point \ref{testPoints}). 
+
+\subsection{Le menu principal}
+La toute première chose que j'ai mise en place a été le squelette de l'application. Par squelette, je veux dire le menu de base, ainsi que la manière dont chaque exercice serait lancé, et le menu présent pour chaque exercice (semblable pour tous). \\
+
+Comme mentionné dans le point précédent, \textit{Outils et technologies utilisées}, j'ai commencé le développement sur Eclipe Juno. Toutefois, avant de me lancer dans la création de \textit{Manabu}, j'ai suivi le premier tutoriel disponible sur le site officiel d'Android pour le développeurs, \textit{Building Your First App}\footnote{Building Your First App, \url{http://developer.android.com/training/basics/firstapp/index.html}, consulté en janvier et février 2015}. Ceci m'a permis de me familiariser avec le SDK Android et de connaître les bases de ce type de programmation.\\
+
+Mettre en place le layout du menu principal n'a pas été trop difficile, celui-ci étant simplement composé de quatre boutons disposés en rectangle. La tâche s'est compliquée lorsque j'ai voulu faire en sorte que la police principale de l'application devienne \textit{OpenDyslexic}, comme me l'avait conseillé la logopède. J'ai tout d'abord essayé de modifier la police d'un élément (pensant par la suite pouvoir l'appliquer à toute l'application sous forme de fonction) via la méthode "classique". C'est-à-dire aller chercher la police dans un dossier et l'appliquer à chaque élément voulu. Cette méthode n'a pas fonctionné, et s'est révélée être lourde à mettre en place. Je me suis alors tournée vers une librairie externe : \textit{Calligraphy} de ChrisJenx\footnote{Disponible gratuitement sur GitHub à l'adresse \url{https://github.com/chrisjenx/Calligraphy}.}.\\
+
+Le mode d'emploi d'ajout de \textit{Calligraphy} étant clair, j'ai décidé d'intégrer cette librairie via Maven dans mon projet Eclipse. Pour ce faire, il me fallait installer le plugin Maven et convertir ensuite mon projet. J'ai à ce stade du travail rencontré le problème avec Eclipse décrit précédemment. De ce fait, j'ai changé mon fusil d'épaule pour continuer mon projet avec Android Studio. Ce dernier utilisant Gradle, plus facile d'utilisation que Maven, il m'a suffit d'ajouter une ligne dans le fichier spécifiant les dépendances pour importer la librairie. J'ai alors pu utiliser la police voulue pour mon application en suivant les instructions fournies par le créateur de la librairie.\\
+
+Une fois le menu principal finalisé, j'ai implémenté les fonctions permettant de lancer une activité par jeu, ainsi que le second menu s'affichant pour chaque exercice. Ce menu est organisé de la manière suivante :
+\begin{itemize}
+\item Etoiles pour choisir le niveau (non implémentées directement, venues se rajouter par la suite)
+\item Affichage des règles du jeu
+\item Démarrer le jeu
+\end{itemize}
+Bien que les exercices soient tous différents, j'ai créé par soucis d'optimisation un layout unique et pour le menu, et pour les règles du jeu, ainsi que des fonctions communes pour ceux-ci.
+
 
 \subsection{L'exercice \textit{Imagerie}}
+L'exercice \textit{Imagerie} est le premier que j'ai choisi d'implémenter. Il s'agit de mon exercice favori, car il m'a permis d'exprimer ma créativité au travers des dessins réalisés. Pour le premier niveau, j'ai choisi de partir sur la version la plus simple des fichiers freinet : une image affichée avec un mot à mémorisé, et puis sur base de la même image retrouver ce mot parmi trois propositions.\\
+
+[...]
+
+
+
 \subsection{L'exercice \textit{Lecture flash}}
+L'exercice \textit{Lecture flash} est le deuxième que j'ai mis en place pour l'application. Comme pour l'exercice précédent, j'ai d'abord commencé par le premier niveau de difficulté. Dans le cas présent, la difficulté entre les niveaux se situe principalement au niveau de la vitesse de lecture. Pour ce premier niveau, j'ai choisi de laisser la possibilité d'afficher le mot pendant 20 secondes.\\
+
+Les mots utilisés pour cet exercices n'ont pas été choisis au hasard. En effet, suivant les conseils de la logopède, Laurence Henrion, j'utilise le VOB (Vocabulaire Orthographique de Base). Pour rappel, il s'agit d'une liste de vocabulaire que les enfants doivent maîtriser à la fin de chaque cycle. Dans le cadre de l'application, j'utilise le VOB du degré inférieur, qui correspond aux mots devant être connus fin de deuxième primaire (cf. annexe \ref{listeVob}).\\
+
+[...]
+	
 \subsection{L'exercice \textit{Anagrammes}}
+
+
 \subsection{L'exercice \textit{Ecouter le son}}
+
+
 \input{testEnfants}
