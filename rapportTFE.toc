@@ -10,17 +10,17 @@
 \contentsline {section}{\numberline {5}D\IeC {\'e}roulement du d\IeC {\'e}veloppement}{11}
 \contentsline {subsection}{\numberline {5.1}Le menu principal}{11}
 \contentsline {subsection}{\numberline {5.2}L'exercice \textit {Imagerie}}{12}
-\contentsline {subsection}{\numberline {5.3}L'exercice \textit {Lecture flash}}{12}
-\contentsline {subsection}{\numberline {5.4}L'exercice \textit {Anagrammes}}{12}
-\contentsline {subsection}{\numberline {5.5}L'exercice \textit {Ecouter le son}}{12}
-\contentsline {subsection}{\numberline {5.6}Le test sur les enfants}{12}
-\contentsline {subsubsection}{\numberline {5.6.1}Test 1 : l'exercice \textit {Imagerie}}{13}
-\contentsline {subsubsection}{\numberline {5.6.2}Test 2 : l'exercice \textit {Lecture flash}}{13}
-\contentsline {subsubsection}{\numberline {5.6.3}Test 3 : l'exercice \textit {Anagrammes}}{14}
-\contentsline {subsubsection}{\numberline {5.6.4}Points relev\IeC {\'e}s }{14}
-\contentsline {section}{\numberline {6}Difficult\IeC {\'e}s rencontr\IeC {\'e}es}{16}
-\contentsline {section}{\numberline {7}Am\IeC {\'e}liorations possibles}{17}
-\contentsline {section}{\numberline {8}Conclusion}{18}
-\contentsline {section}{\numberline {9}Bibliographie}{19}
-\contentsline {section}{\numberline {I}Exemples de fiches freinet}{20}
-\contentsline {section}{\numberline {II}VOB du cycle inf\IeC {\'e}rieur }{21}
+\contentsline {subsection}{\numberline {5.3}L'exercice \textit {Lecture flash}}{13}
+\contentsline {subsection}{\numberline {5.4}L'exercice \textit {Anagrammes}}{13}
+\contentsline {subsection}{\numberline {5.5}L'exercice \textit {Ecouter le son}}{13}
+\contentsline {subsection}{\numberline {5.6}Le test sur les enfants}{13}
+\contentsline {subsubsection}{\numberline {5.6.1}Test 1 : l'exercice \textit {Imagerie}}{14}
+\contentsline {subsubsection}{\numberline {5.6.2}Test 2 : l'exercice \textit {Lecture flash}}{14}
+\contentsline {subsubsection}{\numberline {5.6.3}Test 3 : l'exercice \textit {Anagrammes}}{15}
+\contentsline {subsubsection}{\numberline {5.6.4}Points relev\IeC {\'e}s }{15}
+\contentsline {section}{\numberline {6}Difficult\IeC {\'e}s rencontr\IeC {\'e}es}{17}
+\contentsline {section}{\numberline {7}Am\IeC {\'e}liorations possibles}{18}
+\contentsline {section}{\numberline {8}Conclusion}{19}
+\contentsline {section}{\numberline {9}Bibliographie}{20}
+\contentsline {section}{\numberline {I}Exemples de fiches freinet}{21}
+\contentsline {section}{\numberline {II}VOB du cycle inf\IeC {\'e}rieur }{22}
