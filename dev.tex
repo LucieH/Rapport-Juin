@@ -39,15 +39,35 @@ L'exercice \textit{Lecture flash} est le deuxième que j'ai mis en place pour l'
 
 Les mots utilisés pour cet exercices n'ont pas été choisis au hasard. En effet, suivant les conseils de la logopède, Laurence Henrion, j'utilise le VOB (Vocabulaire Orthographique de Base). Pour rappel, il s'agit d'une liste de vocabulaire que les enfants doivent maîtriser à la fin de chaque cycle. Dans le cadre de l'application, j'utilise le VOB du degré inférieur, qui correspond aux mots devant être connus fin de deuxième primaire (cf. annexe \ref{listeVob}).\\
 
-La première étape de programmation de cet exercice était donc de recopier le 480 mots constituant le VOB du cycle inférieur dans le fichier \textit{strings.xml}. Comme précédemment, afin de faciliter le choix des mots de manière aléatoire, la nomenclature de ceux-ci est \textit{str\_XXX}. Une fois les mots recopiés, tout comme pour l'exercice précédent, j'ai défini les layouts \textit{xml}. Dans le cas présent, il me fallait 3 layouts :
+La première étape de programmation de cet exercice était donc de recopier le 480 mots constituant le VOB du cycle inférieur dans le fichier \textit{strings.xml}. Comme précédemment, afin de faciliter le choix des mots de manière aléatoire, les noms sont identiques et différenciés par un nombre. La nomenclature de ceux-ci est \textit{str\_XXX}. \\
+
+Une fois les mots recopiés, tout comme pour l'exercice précédent, j'ai défini les layouts \textit{xml}. Dans le cas présent, il me fallait 3 layouts :
 \begin{itemize}
 \item un premier lors du démarrage, afin de choisir le nombre de secondes d'affichage des mots.
 \item un deuxième pour l'affichage du mot en lui-même. Très simple car il est constitué d'un seul élément.
-\item Un troisième et dernier avec un champ texte éditable et un bouton de vérification.
+\item Un troisième et dernier avec un champ texte éditable et un bouton de vérification, qui est chargé une fois que le temps d'affichage du mot est écoulé.
 \end{itemize}
+Ces layouts ne sont pas composés de beaucoup d'éléments, ce qui m'a permis de réaliser cette étape assez rapidement.\\
+
+Du point de vue de la programmation Java, j'ai tout d'abord créé un \textit{NumberPicker} personnalisé pour définir le temps d'affichage du mot. Un \textit{NumberPicker} est un élément que l'on peut ajouter tel quel à un layout et qui permet de sélectionner un nombre dans un intervalle. Or, l'élément en tant que tel est très peu personnalisable. De ce fait, j'ai choisi de mettre en place le mien, ce qui est facile à faire. J'ai simplement aligné deux boutons avec un champ texte non éditable entre eux. J'ai assigné au bouton "-" la décrémentation du champ texte, et au "+" l'incrémentation.\\
+
+La suite de la programmation s'est déroulée de manière fluide également : l'affichage du mot le temps voulu (celui-ci récupéré du \textit{NumberPicker} codé au layout précédent), le choix au hasard du mot parmi le VOB, et la vérification du mot post-lecture. Pour le choix du mot au hasard, j'ai réutilisé le code de l'exercice \textit{Imagerie} et le modifiant pour qu'il corresponde à l'exercice.\\
+
+A ce stade, l'exercice en lui-même était fonctionnel. J'y suis revenue par la suite afin d'implémenter un clavier propre à \textit{Manabu}. Ceci m'a été demandé par les enfants sur lequels j'ai eu l'occasion de tester l'application, et notamment cet exercice (cf. point \ref{testFlash}). Ceux-ci préféraient avoir un clavier pour lequel il ne devaient pas réapprendre l'ordre des lettres, et donc un de type \textit{alphabet} plutôt qu'un \textit{azerty}. Afin de mettre en place mon propre \textit{SoftKeyboard}, je me suis inspirée du tutoriel de Martin Pennings et j'ai téléchargé le code source disponible sur la page du celui-ci\footnote{Maarten Pennings,\textit{Android development: Custom keyboard}, \url{http://www.fampennings.nl/maarten/android/09keyboard/index.htm}, consulté le 18 mai 2015}. Après avoir essayer de compléter mon code sur base du tutoriel seul, sans grand succès, j'ai décidé d'intégrer le code source précédemment téléchargé à mon projet.\\
+
+Enfin, le code source de Martin Pennings étant pour mettre en place un \textit{Softkeyboard} hexadécimal, je ne l'ai pas gardé tel quel. J'ai remplacé le seul layout fourni de base par quatre nouveau layouts composants mon clavier :
+\begin{itemize}
+\item un layout avec les 26 lettres de l'alphabet en minucule
+\item un layout avec les 26 lettres de l'alphabet en majuscule
+\item un layout avec les lettres accentuées en minuscule et la ponctuation
+\item un layout avec les lettres accentuées en majuscule et la ponctuation
+\end{itemize}
+De ce fait, j'ai également modifié certaines parties du code précédemment intégré afin de l'adapter aux besoins de Manabu.\\
+
+La mise en place du premier niveau de l'exercice \textit{Lecture Flash} en lui-même s'est donc déroulée sans encombre. Comme expliqué ci-dessus, la partie la plus ardue a été l'implémentation du clavier \textit{alphabet} à partir du code de quelqu'un d'autre.
 	
 \subsection{L'exercice \textit{Anagrammes}}
-
+\textit{Anagrammes} est le troisième exercice que j'ai implémenté. C'est également à ce stade du développement, après avoir commencé à mettre en place le mélange des lettres des mots, que j'ai effectué le test de l'application sur des enfants (cf. \ref{testEnfants}).
 
 \subsection{L'exercice \textit{Ecouter le son}}
 
