@@ -1,11 +1,11 @@
 \select@language {french}
-\contentsline {section}{\numberline {1}Introduction : \IeC {\'E}nonc\IeC {\'e} de la th\IeC {\'e}matique du TFE et motivations}{1}
+\contentsline {section}{\numberline {1}Introduction : \IeC {\'e}nonc\IeC {\'e} de la th\IeC {\'e}matique du TFE et motivations}{1}
 \contentsline {section}{\numberline {2}Analyse du probl\IeC {\`e}me}{2}
 \contentsline {subsection}{\numberline {2.1}Rencontre avec des professionnelles de l'apprentissage de la lecture}{2}
 \contentsline {subsubsection}{\numberline {2.1.1}Rencontre avec une institutrice : Odile Paveau}{2}
 \contentsline {subsubsection}{\numberline {2.1.2}Rencontre avec une logop\IeC {\`e}de : Laurence Henrion}{4}
 \contentsline {subsection}{\numberline {2.2}Conclusion des entrevues}{6}
-\contentsline {subsection}{\numberline {2.3}\IeC {\'E}tude des produits existants et critique sur base des entrevues}{7}
+\contentsline {subsection}{\numberline {2.3}\IeC {\'E}tude des produits existants et critique sur la base des entrevues}{7}
 \contentsline {subsection}{\numberline {2.4}Cahier des charges}{7}
 \contentsline {section}{\numberline {3}Pr\IeC {\'e}sentation de l'application et des exercices}{9}
 \contentsline {section}{\numberline {4}Outils et technologies utilis\IeC {\'e}s}{11}
@@ -16,17 +16,17 @@
 \contentsline {subsection}{\numberline {5.4}L'exercice \textit {Lecture flash}}{15}
 \contentsline {subsection}{\numberline {5.5}L'exercice \textit {Anagrammes}}{17}
 \contentsline {subsection}{\numberline {5.6}L'exercice \textit {Ecouter le son}}{18}
-\contentsline {section}{\numberline {6}Validation - Test par des enfants }{19}
+\contentsline {section}{\numberline {6}Validation - test par des enfants }{19}
 \contentsline {subsection}{\numberline {6.1}Test 1 : l'exercice \textit {Imagerie}}{19}
 \contentsline {subsection}{\numberline {6.2}Test 2 : l'exercice \textit {Lecture flash} }{19}
 \contentsline {subsection}{\numberline {6.3}Test 3 : l'exercice \textit {Anagrammes}}{20}
 \contentsline {subsection}{\numberline {6.4}Points relev\IeC {\'e}s }{21}
 \contentsline {section}{\numberline {7}Difficult\IeC {\'e}s rencontr\IeC {\'e}es}{22}
-\contentsline {section}{\numberline {8}Pistes d'am\IeC {\'e}lioration}{23}
-\contentsline {section}{\numberline {9}Conclusion}{24}
-\contentsline {section}{\numberline {10}Bibliographie}{25}
-\contentsline {section}{\numberline {I}Compte-rendu des rencontres avec une institutrice et une logop\IeC {\`e}de }{26}
-\contentsline {subsection}{\numberline {I.1}Rencontre avec une institutrice : Odile Paveau}{26}
-\contentsline {subsection}{\numberline {I.2}Rencontre avec une logop\IeC {\`e}de : Laurence Henrion}{28}
-\contentsline {section}{\numberline {II}Exemples de fiches Freinet}{30}
-\contentsline {section}{\numberline {III}VOB du cycle inf\IeC {\'e}rieur }{31}
+\contentsline {section}{\numberline {8}Pistes d'am\IeC {\'e}lioration}{24}
+\contentsline {section}{\numberline {9}Conclusion}{25}
+\contentsline {section}{\numberline {10}Bibliographie}{26}
+\contentsline {section}{\numberline {I}Compte-rendu des rencontres avec une institutrice et une logop\IeC {\`e}de }{27}
+\contentsline {subsection}{\numberline {I.1}Rencontre avec une institutrice : Odile Paveau}{27}
+\contentsline {subsection}{\numberline {I.2}Rencontre avec une logop\IeC {\`e}de : Laurence Henrion}{29}
+\contentsline {section}{\numberline {II}Exemples de fiches Freinet}{31}
+\contentsline {section}{\numberline {III}VOB du cycle inf\IeC {\'e}rieur }{32}
