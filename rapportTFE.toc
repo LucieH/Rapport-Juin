@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {5.1}G\IeC {\'e}n\IeC {\'e}ralit\IeC {\'e}s}{13}
 \contentsline {subsection}{\numberline {5.2}Le menu principal}{14}
 \contentsline {subsection}{\numberline {5.3}L'exercice \textit {Imagerie}}{14}
-\contentsline {subsection}{\numberline {5.4}L'exercice \textit {Lecture flash}}{15}
+\contentsline {subsection}{\numberline {5.4}L'exercice \textit {Lecture flash}}{16}
 \contentsline {subsection}{\numberline {5.5}L'exercice \textit {Anagrammes}}{17}
 \contentsline {subsection}{\numberline {5.6}L'exercice \textit {\IeC {\'E}couter le son}}{18}
 \contentsline {section}{\numberline {6}Validation - test par des enfants }{20}
@@ -23,10 +23,10 @@
 \contentsline {subsection}{\numberline {6.4}Points relev\IeC {\'e}s }{22}
 \contentsline {section}{\numberline {7}Difficult\IeC {\'e}s rencontr\IeC {\'e}es}{23}
 \contentsline {section}{\numberline {8}Pistes d'am\IeC {\'e}lioration}{25}
-\contentsline {section}{\numberline {9}Conclusion}{26}
-\contentsline {section}{\numberline {10}Bibliographie}{27}
-\contentsline {section}{\numberline {I}Compte-rendu des rencontres avec une institutrice et une logop\IeC {\`e}de }{28}
-\contentsline {subsection}{\numberline {I.1}Rencontre avec une institutrice : Odile Paveau}{28}
-\contentsline {subsection}{\numberline {I.2}Rencontre avec une logop\IeC {\`e}de : Laurence Henrion}{30}
-\contentsline {section}{\numberline {II}Exemples de fiches Freinet}{32}
-\contentsline {section}{\numberline {III}VOB du cycle inf\IeC {\'e}rieur }{33}
+\contentsline {section}{\numberline {9}Conclusion}{27}
+\contentsline {section}{\numberline {10}Bibliographie}{28}
+\contentsline {section}{\numberline {I}Compte-rendu des rencontres avec une institutrice et une logop\IeC {\`e}de }{30}
+\contentsline {subsection}{\numberline {I.1}Rencontre avec une institutrice : Odile Paveau}{30}
+\contentsline {subsection}{\numberline {I.2}Rencontre avec une logop\IeC {\`e}de : Laurence Henrion}{32}
+\contentsline {section}{\numberline {II}Exemples de fiches Freinet}{34}
+\contentsline {section}{\numberline {III}VOB du cycle inf\IeC {\'e}rieur }{35}
