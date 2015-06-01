@@ -26,7 +26,5 @@
 \contentsline {section}{\numberline {9}Conclusion}{30}
 \contentsline {section}{\numberline {10}Bibliographie}{31}
 \contentsline {section}{\numberline {I}Compte-rendu des rencontres avec une institutrice et une logop\IeC {\`e}de }{33}
-\contentsline {subsection}{\numberline {I.1}Rencontre avec une institutrice : Odile Paveau}{33}
-\contentsline {subsection}{\numberline {I.2}Rencontre avec une logop\IeC {\`e}de : Laurence Henrion}{35}
 \contentsline {section}{\numberline {II}Exemples de fiches Freinet}{37}
 \contentsline {section}{\numberline {III}VOB du cycle inf\IeC {\'e}rieur }{38}
